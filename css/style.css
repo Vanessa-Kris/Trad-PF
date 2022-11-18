@@ -10,15 +10,8 @@ a {
      height: 600px;
 }
 
-/* .item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-} */
-
 p {
-    font-size: 25px;
+    font-size: 19px;
 }
 
 li {
@@ -26,3 +19,6 @@ li {
     font-weight: 700px;
 }
 
+.header {
+    font-weight: 2000px;
+}

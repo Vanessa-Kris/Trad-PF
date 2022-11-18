@@ -1,3 +1,16 @@
 .card h5 {
     font-size: 20px;
 }
+
+.homeimg {
+    width: 550px;
+}
+
+@media (max-width: 992px) {
+    .homeimg {
+        width: 300px;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+    }
+}
