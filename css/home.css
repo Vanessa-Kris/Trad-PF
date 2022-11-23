@@ -6,26 +6,11 @@
     width: 550px;
 }
 
-/* .carousel-caption {
-     position: absolute; 
-     z-index: 1; 
-     display:table; 
-     width:100%;
-    height:100%; 
+.lastdivimg {
+    width: 550px;
 }
 
-.absolute-div {
-     position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0; 
+.carousel-inner{
+    height: 600px;
 }
-
-.carousel-caption h3 {
-    font-size: 100px;
-    display:table-cell; 
-     vertical-align: middle; 
-     text-align:center;
-} */
 
