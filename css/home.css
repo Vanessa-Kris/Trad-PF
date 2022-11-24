@@ -10,11 +10,21 @@
     width: 550px;
 }
 
-.carousel-inner{
+.carousel-inner {
     height: 600px;
 }
 
-.sectorsimg{
+.sectorsimg {
     height: 400px;
 }
 
+.mapouter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.smalltitle {
+    font-weight: 300;
+}

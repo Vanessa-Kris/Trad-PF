@@ -18,3 +18,11 @@ li {
 .header {
     font-weight: 2000px;
 }
+
+.title {
+    font-family:  Roboto;
+}
+
+.card-header {
+    font-size: 30px;
+}

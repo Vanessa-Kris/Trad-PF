@@ -14,7 +14,53 @@
          display: block;
          margin-left: auto;
          margin-right: auto;
-         width: 90%;
+          width: 90%;
      }
 
+     p {
+        font-size: 17px;
+        padding: 10px;
+    }
+    
+    li {
+        font-size: 18px;
+        font-weight: 500px;
+    }
+    
+    .header {
+        font-weight: 1000px;
+        padding: 10px;
+    }
+
+    .card-header {
+        font-size: 20px;
+    }
+
+    .card {
+        display: block !important;
+        width: 20rem !important;
+        flex:none !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .colimg {
+        width: 20rem !important;
+        height: 10rem !important;
+        display: block !important;
+      }
+
+      .sectorsimg {
+        width: 20rem !important;
+    }
  }
+
+
+
+ /* @media  only screen and (min-width : 768px) {
+    .card {
+      display: block !important;
+      width: 25rem !important;
+      flex:none !important;
+    }
+} */
