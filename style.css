@@ -27,5 +27,16 @@ li {
     font-size: 30px;
 }
 
+.bigtitle {
+    font-size: 70px;
+    font-weight: 2000px;
+    font-family: Roboto;
+}
 
+.undraw {
+    width: 550px;
+}
 
+.bg-image {
+    height: 80vh;
+}
