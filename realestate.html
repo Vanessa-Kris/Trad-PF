@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet" />
+    <title>SB Trades</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+        integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.anychart.com/releases/8.11.0/css/anychart-ui.min.css" />
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = 'b3484c3ef5ca73a94821bbcc9e436001a17e82ce';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"
+        style="background-color: #023c7e; color: rgb(253, 253, 253);">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarLeftAlignExample" aria-controls="navbarLeftAlignExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="images/maxim-hopman-fiXLQXAhCfk-unsplash.jpg" height="15" alt="MDB Logo" loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" href="#">Responsibility</a>
+                    </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Investment Products
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Real Estate</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Stocks</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Infrastructure</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Forex Trading</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Crypto Asset</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Agriculture</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">NFP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown End -->
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Planning Services
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Financial Planning</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Retirement Planning</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Private Wealth Management</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Estate Planning</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Long Term care</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Business Services</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Oil & Gas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown End -->
+                    <li class="nav-item px-3" style="background-color: #3a6827;">
+                        <a class="nav-link text-white" href="login.html">Sign In</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+
+    <div class="container-fluid">
+        <!-- Background image -->
+        <div class="bg-image d-flex  align-items-center" style="
+  background-image: url('images/sean-pollock-PhYq704ffdA-unsplash.jpg');">
+
+            <h1 class="text-white biggertitle">REAL <span style="color: #3a6827;">ESTATE </span></h1>
+        </div>
+        <!-- Background image -->
+    </div>
+
+
+    <div class="container-fluid" style="background-color: antiquewhite;">
+        <div class="container py-5 pt-5">
+            <h1 class="title">
+                REAL ESTATE
+            </h1>
+            <p>
+                As one of the world's largest investors in real estate, we own and operate iconic properties in the
+                world's
+                most dynamic markets. Our global portfolio includes office, retail, multifamily, logistics, hospitality,
+                triple net lease, manufactured housing and student housing assets on five continents. Our goal is to
+                generate stable and growing distributions for our investors while protecting them against downside risk.
+                Our
+                assets are diversified by sector and geography, reducing exposure to movement in any single market and
+                minimizing volatility. In our public and private investment vehicles, we seek to generate superior
+                returns
+                by leveraging our operating expertise and focusing on our core real estate capabilities—leasing,
+                financing,
+                development, design and construction, and property and facilities management.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 py-5">
+        <hr>
+        <div class="row">
+
+            <div class="col-md-6">
+                <img src="images/maria-ziegler-jJnZg7vBfMs-unsplash.jpg" alt="" class="lastdivimg">
+            </div>
+
+            <div class="col-md-6">
+                <p class="mt-5">
+                    Manhattan West is one of opulenttrades.com’s most ambitious large-scale development projects. The
+                    eight-acre,
+                    six-building, mixed-use complex includes all the elements of opulenttrades.com’s renowned
+                    placemaking
+                    destinations throughout the world.
+                </p>
+                <h4 class="title mt-5">
+                    Real Estate leadership
+                </h4>
+                <p>
+                    Our leaders share a commitment to our time-tested approach to investing, hands-on value creation and
+                    practices that have a positive impact on our communities.
+                </p>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="container mt-5 py-5">
+        <div class="row">
+          
+            <div class="col">
+                <p class="mt-5">
+                    We own, develop and manage office properties in key gateway cities in the U.S., Canada, the U.K.,
+                    Germany, Australia, Brazil, India and South Korea.
+                </p>
+
+                <h1>318</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>PROPERTIES</p>
+
+                <h1>167M SF</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>COMMERCIAL SPACE</p>
+            </div>
+
+            <div class="col">
+                <img src="images/maria-ziegler-jJnZg7vBfMs-unsplash.jpg" alt="" class="lastdivimg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 py-5">
+        <div class="row">
+           
+            <div class="col">
+                <p class="mt-5">
+                    We own, develop and manage office properties in key gateway cities in the U.S., Canada, the U.K.,
+                    Germany, Australia, Brazil, India and South Korea.
+                </p>
+
+                <h1>156</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>PROPERTIES</p>
+
+                <h1>51, 595</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>APARTMENTS</p>
+            </div>
+
+            <div class="col">
+                <img src="images/maria-ziegler-jJnZg7vBfMs-unsplash.jpg" alt="" class="lastdivimg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 py-5">
+        <div class="row">
+           
+            <div class="col">
+                <img src="images/maria-ziegler-jJnZg7vBfMs-unsplash.jpg" alt="" class="lastdivimg">
+            </div>
+
+            <div class="col">
+                <p class="mt-5">
+                    We own, develop and manage office properties in key gateway cities in the U.S., Canada, the U.K.,
+                    Germany, Australia, Brazil, India and South Korea.
+                </p>
+
+                <h1>179</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>LOCATIONS, PREDOMINANTLY IN THE U.S AND UK</p>
+
+                <h1>154 MILLION</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>TOTAL SQUARE FEET</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container mt-5 py-5">
+        <div class="row">
+           
+            <div class="col">
+                <img src="images/maria-ziegler-jJnZg7vBfMs-unsplash.jpg" alt="" class="lastdivimg">
+            </div>
+
+            <div class="col">
+                <p class="mt-5">
+                    We own, develop and manage office properties in key gateway cities in the U.S., Canada, the U.K.,
+                    Germany, Australia, Brazil, India and South Korea.
+                </p>
+
+                <h1>16</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>FULL-SERVICE HOSPITALITY PROPERTIES</p>
+
+                <h1>140</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>EXTENDED-STAY HOTELS</p>
+
+                <h1>31, 000</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>ROOMS</p>
+            </div>
+
+        </div>
+    </div>
+
+
+   
+    <div class="container mt-5 py-5">
+        <div class="row">
+           
+            <div class="col">
+                <p class="mt-5">
+                    We own, develop and manage office properties in key gateway cities in the U.S., Canada, the U.K.,
+                    Germany, Australia, Brazil, India and South Korea.
+                </p>
+
+                <h1>159</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>STUDENT HOUSING PROPERTIES</p>
+
+                <h1>306</h1>
+                <hr style="color: #75dd49; height: 5px;" class="w-25">
+                <p>TRIPLE NET LEASE ASSETS</p>
+            </div>
+            <div class="col">
+                <img src="images/maria-ziegler-jJnZg7vBfMs-unsplash.jpg" alt="" class="lastdivimg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class=" text-center text-white" style="background-color: #06376ef6;">
+        <!-- Grid container -->
+        <div class="container-fluid p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+
+            </section>
+            <!-- Section: Social media -->
+
+
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    Lorem Ipsum is more than just finance, it is hope for an average entrepreneur to stand and evolve.
+                </p>
+                <hr>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase title">More </h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Corporate responsibility</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Planning services</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase title">Useful Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Cryptocurrency</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Real Estate</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Stock</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Multi Assets</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase title">Support</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Support</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(9, 19, 29, 0.718);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Trades.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Bootsrtap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+    <!-- Any chart -->
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js" type="text/javascript">
+    </script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js" type="text/javascript">
+    </script>
+    <script
+        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script
+        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script
+        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script src="https://cdn.anychart.com/csv-data/dji-daily-short.js"></script>
+    <script src="chart.js"></script>
+    <script src="index.js"></script>
+    <script src="https://ifccd.net/js/minifin/all-ltr-8027d1908925116e10a8fc8480e957a0-2.js" defer></script>
+</body>
+
+</html>
