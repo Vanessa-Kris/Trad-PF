@@ -40,3 +40,7 @@ li {
 .bg-image {
     height: 80vh;
 }
+
+.nav li {
+    color: rgb(255, 255, 255);
+}
