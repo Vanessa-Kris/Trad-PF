@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet" />
+    <title>SB Trades</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+        integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.anychart.com/releases/8.11.0/css/anychart-ui.min.css" />
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = 'b3484c3ef5ca73a94821bbcc9e436001a17e82ce';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"
+        style="background-color: #023c7e; color: rgb(253, 253, 253);">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarLeftAlignExample" aria-controls="navbarLeftAlignExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="images/maxim-hopman-fiXLQXAhCfk-unsplash.jpg" height="15" alt="MDB Logo" loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" href="responsibilty.html">Responsibility</a>
+                    </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Investment Products
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="realestate.html">Real Estate</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="stocks.html">Stocks</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="infrastructure.html">Infrastructure</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="forex.html">Forex Trading</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="crypto.html">Crypto Asset</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="agricultural.html">Agriculture</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="NFP.html">NFP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown End -->
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Planning Services
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="financialplan.html">Financial Planning</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="retirement.html">Retirement Planning</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="privatewealth.html">Private Wealth Management</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="estatepal.html">Estate Planning</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="longtermcare.html">Long Term care</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="business.html">Business Services</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="oil&gas.html">Oil & Gas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown End -->
+                    <li class="nav-item px-3" style="background-color: #3a6827;">
+                        <a class="nav-link text-white" href="login.html">Sign In</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <div class="container-fluid">
+        <!-- Background image -->
+        <div class="bg-image d-flex justify-content-center align-items-center" style="
+  background-image: url('images/marga-santoso-OmPqCwX422Y-unsplash.jpg');">
+
+            <h1 class="text-white bigtitle">PRODUCT <span style="color: #0b5613;">FOREX TRADING</span></h1>
+        </div>
+        <!-- Background image -->
+    </div>
+
+    <div class="container-fluid" style="background-color: rgb(237, 255, 228);">
+        <div class="container py-5 pt-5">
+            <h1 class="title">
+                TRADE FOREX CFDS WITH SB TRADES.COM
+            </h1>
+            <p>
+                <b>T</b>he FX market is one of the world’s biggest markets. You can trade currency pairs from every
+                corner of the world. However, there are a handful of pairs that are worth mentioning: more traded than
+                any other currency pairs, the "majors" dominate the FX market. The four most traded currency pairs in
+                the world have been coined the "majors". They involve the following currencies: euro, US dollar,
+                Japanese yen and pound sterling. The most popular pairing is the EUR/USD, followed by the USD/JPY,
+                GBP/USD and USD/CHF pairs respectively. There are a few other currencies that deserve to be mentioned.
+                Informally known as the "commodity pairs", the AUD/USD or "Aussie", USD/CAD and NZD/USD are all
+                frequently traded currency pairs. Unsurprisingly, this group of currencies derives its nickname from the
+                fact that they come from countries that possess large quantities of natural resources.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div class="container py-5">
+        <h3 class="title">Advantages of trading currency pairs</h3>
+        <p>The FX market is one of the most exciting and fast-paced for traders. Open 24/7 and being the biggest global
+            market means it is extremely liquid; you can instantly buy and sell, so you’re never stuck in a trade. Daily
+            currency fluctuations are usually fairly small, political disasters aside, moving around 1% or 100 pips.
+            Study live forex rates and charts here. You can trade forex CFDs with opulenttrades.com. The availability of
+            leveraged trading in this market can amplify wins, but similarly, can amplify losses.
+        </p>
+
+        <p>Trade forex with leverage Currencies are available to trade with up to 30:1 leverage. Start trading with as
+            little as $100 to control a position of $3000
+        </p>
+
+        <p>Forex CFDs <br />
+            Trade 24/5 on a wide range of Forex. Buy and sell Forex to take advantage of rises and falls in price
+        </p>
+
+        <p>Profit and loss control
+            You can easily define Stops and Limits to request positions to close at a specified price.
+            Set up price alerts to be informed of big moves.
+        </p>
+        <hr>
+    </div>
+
+
+    <div class="container py-5">
+        <p>opulenttrades.com finance offers a broad array of professional services and access to the global foreign
+            exchange markets for commercial and institutional clients. execution and clearing services in virtually all
+            tradable currency pairs and derivative instruments. </p>
+
+
+        <p>Currency pair trading, also known as FX or forex (foreign exchange), enables traders to take advantage of
+            increases and decreases in a currency’s value. The foreign exchange market is the most liquid in the world,
+            with a daily trading volume of over $5 trillion. We are specialists in leveraged trading, giving you the
+            potential to generate financial returns on both rising and falling prices across FX, market. Whether you’re
+            an experienced trader or completely new to it, we’re here to help you find freedom in the financial markets.
+        </p>
+
+        <p>While a lot of foreign exchange is done for practical purposes, the vast majority of currency conversion is
+            undertaken with the aim of earning a profit. The amount of currency converted every day can make price
+            movements of some currencies extremely volatile. It is this volatility that can make forex so attractive to
+            traders: bringing about a greater chance of high profits, while also increasing the risk.
+        </p>
+    </div>
+
+
+    <div class="container py-5">
+        <h3 class="title"> What is forex trading?</h3>
+        <p>Forex, or foreign exchange, can be explained as a network of buyers and sellers, who transfer currency
+            between each other at an agreed price. It is the means by which individuals, companies and central banks
+            convert one currency into another – if you have ever travelled abroad, then it is likely you have made a
+            forex transaction.</p>
+    </div>
+
+
+    <div class="container pb-5">
+        <h3 class="title">What are the benefits?<h3>
+        <ul>
+            <li>Go long or short</li>
+            <li>24-hour trading</li>
+            <li>High liquidity</li>
+            <li>Constant opportunities</li>
+            <li>Trade on leverage</li>
+            <li>Wide range of FX pairs</li>
+        </ul>
+    </div>
+    
+
+
+    <!-- Footer -->
+    <footer class=" text-center text-white" style="background-color: #06376ef6;">
+        <!-- Grid container -->
+        <div class="container-fluid p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+
+            </section>
+            <!-- Section: Social media -->
+
+
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    Lorem Ipsum is more than just finance, it is hope for an average entrepreneur to stand and evolve.
+                </p>
+                <hr>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase title">More </h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="About.html" class="text-white">About Us</a>
+                            </li>
+                            <li>
+                                <a href="responsibilty.html" class="text-white">Corporate responsibility</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Planning services</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase title">Useful Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="crypto.html" class="text-white">Cryptocurrency</a>
+                            </li>
+                            <li>
+                                <a href="realestate.html" class="text-white">Real Estate</a>
+                            </li>
+                            <li>
+                                <a href="stocks.html" class="text-white">Stock</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white">Multi Assets</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase title">Support</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Support</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(9, 19, 29, 0.718);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Trades.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Bootsrtap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+    <!-- Any chart -->
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js" type="text/javascript">
+    </script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js" type="text/javascript">
+    </script>
+    <script
+        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script
+        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script
+        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    </script>
+    <script src="https://cdn.anychart.com/csv-data/dji-daily-short.js"></script>
+    <script src="chart.js"></script>
+    <script src="index.js"></script>
+    <script src="https://ifccd.net/js/minifin/all-ltr-8027d1908925116e10a8fc8480e957a0-2.js" defer></script>
+</body>
+
+</html>
