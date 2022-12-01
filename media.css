@@ -4,70 +4,86 @@
      }
 
      .homeimg {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 80%;
      }
 
      .lastdivimg {
          display: block;
          margin-left: auto;
          margin-right: auto;
-          width: 90%;
+         width: 90%;
      }
 
      p {
-        font-size: 17px;
-        padding: 10px;
-    }
-    
-    li {
-        font-size: 18px;
-        font-weight: 500px;
-    }
-    
-    .header {
-        font-weight: 1000px;
-        padding: 10px;
-    }
+         font-size: 17px;
+         padding: 10px;
+     }
 
-    .card-header {
-        font-size: 20px;
-    }
+     li {
+         font-size: 18px;
+         font-weight: 500px;
+     }
 
-    .card {
-        display: block !important;
-        width: 20rem !important;
-        flex:none !important;
+     .header {
+         font-weight: 1000px;
+         padding: 10px;
+     }
+
+     .card-header {
+         font-size: 20px;
+     }
+
+     .card {
+         display: block !important;
+         width: 20rem !important;
+         flex: none !important;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .colimg {
+         width: 20rem !important;
+         height: 10rem !important;
+         display: block !important;
+     }
+
+     .sectorsimg {
+         width: 20rem !important;
+     }
+
+     .undraw {
+         width: 250px;
+         margin-left: auto;
+         margin-right: auto;
+         display: block !important;
+     }
+
+     .bigtitle {
+         font-size: 50px;
+         font-weight: 2000px;
+     }
+
+     .biggertitle {
+         font-size: 100px;
+         font-weight: 2000px;
+         font-family: Ubuntu;
+     }
+
+     .bg-image {
+         height: 40vh;
+     }
+
+     .divbox {
+        padding: 10px;
+        height: 180px;
+        width: 200px;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
-      }
-
-      .colimg {
-        width: 20rem !important;
-        height: 10rem !important;
         display: block !important;
-      }
-
-      .sectorsimg {
-        width: 20rem !important;
-    }
-
-    .undraw {
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block !important;
-    }
-
-    .bigtitle {
-        font-size: 50px;
-        font-weight: 2000px;
-    }
-
-    .bg-image {
-        height: 40vh;
     }
  }
 
