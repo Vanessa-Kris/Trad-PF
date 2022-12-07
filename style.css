@@ -63,3 +63,9 @@ li {
     margin-right: auto;
     display: block !important;
 }
+
+.contactbody {
+    background-image: url(images/Creds\ to\ the\ owners!\ 💌\ on\ We\ Heart\ It.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
