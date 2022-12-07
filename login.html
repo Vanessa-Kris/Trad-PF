@@ -25,10 +25,112 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.anychart.com/releases/8.11.0/css/anychart-ui.min.css" />
 </head>
 
-<body>
+<body style="background-color: #b8cfe9f6;">
 
-<div class="container">
-    <div class="container p-5 text-center w-50">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top"
+  style="background-color: #023c7e; color: rgb(253, 253, 253);">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarLeftAlignExample" aria-controls="navbarLeftAlignExample" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+              <img src="images/maxim-hopman-fiXLQXAhCfk-unsplash.jpg" height="15" alt="MDB Logo" loading="lazy" />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item pe-3">
+                  <a class="nav-link active" href="home.html">Home</a>
+              </li>
+              <li class="nav-item pe-3">
+                  <a class="nav-link active" href="responsibilty.html">Responsibility</a>
+              </li>
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown pe-3">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      Investment Products
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                          <a class="dropdown-item" href="realestate.html">Real Estate</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="stocks.html">Stocks</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="infrastructure.html">Infrastructure</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="forex.html">Forex Trading</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="crypto.html">Crypto Asset</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="agricultural.html">Agriculture</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="NFP.html">NFP</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- Dropdown End -->
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown pe-3">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      Planning Services
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                          <a class="dropdown-item" href="financialplan.html">Financial Planning</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="retirement.html">Retirement Planning</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="privatewealth.html">Private Wealth Management</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="estatepal.html">Estate Planning</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="longtermcare.html">Long Term care</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="business.html">Business Services</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="oil&gas.html">Oil & Gas</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- Dropdown End -->
+              <li class="nav-item px-3" style="background-color: #3a6827;">
+                  <a class="nav-link text-white" href="login.html">Sign In</a>
+              </li>
+          </ul>
+          <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+<div class="container mt-5 pt-5">
+    <div class="container formdiv p-5 text-center">
 <!-- Pills navs -->
 <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
     <li class="nav-item" role="presentation">
@@ -64,15 +166,15 @@
       <form>
         <div class="text-center mb-3">
           <p>Sign in with:</p>
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <button type="button" class="btn btn-dark btn-floating mx-1">
             <i class="fab fa-facebook-f"></i>
           </button>
   
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <button type="button" class="btn btn-dark btn-floating mx-1">
             <i class="fab fa-google"></i>
           </button>
   
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <button type="button" class="btn btn-dark btn-floating mx-1">
             <i class="fab fa-twitter"></i>
           </button>
         </div>
@@ -247,16 +349,16 @@
 
                         <ul class="list-unstyled mb-0">
                             <li>
-                                <a href="#!" class="text-white">About Us</a>
+                                <a href="About.html" class="text-white">About Us</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Corporate responsibility</a>
+                                <a href="responsibilty.html" class="text-white">Corporate responsibility</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Planning services</a>
+                                <a href="financialplan.html" class="text-white">Planning services</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Contact Us</a>
+                                <a href="contact.html" class="text-white">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -268,16 +370,16 @@
 
                         <ul class="list-unstyled mb-0">
                             <li>
-                                <a href="#!" class="text-white">Cryptocurrency</a>
+                                <a href="crypto.html" class="text-white">Cryptocurrency</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Real Estate</a>
+                                <a href="realestate.html" class="text-white">Real Estate</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Stock</a>
+                                <a href="stocks.html" class="text-white">Stock</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Multi Assets</a>
+                                <a href="" class="text-white">Multi Assets</a>
                             </li>
                         </ul>
                     </div>
@@ -292,7 +394,7 @@
                                 <a href="#!" class="text-white">Support</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Contact Us</a>
+                                <a href="contact.html" class="text-white">Contact Us</a>
                             </li>
                             <li>
                                 <a href="#!" class="text-white">FAQs</a>

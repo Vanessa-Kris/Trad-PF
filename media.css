@@ -85,6 +85,10 @@
         margin-right: auto;
         display: block !important;
     }
+
+    .formdiv {
+        width: fit-content;
+    }
  }
 
 
