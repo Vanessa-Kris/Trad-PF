@@ -2,449 +2,529 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet" />
-    <title>SB Trades</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
-        integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.anychart.com/releases/8.11.0/css/anychart-ui.min.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet" />
+  <title>SB Trades</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+    integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.anychart.com/releases/8.11.0/css/anychart-ui.min.css" />
 </head>
 
 <body style="background-color: #b8cfe9f6;">
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top"
-  style="background-color: #023c7e; color: rgb(253, 253, 253);">
-  <!-- Container wrapper -->
-  <div class="container-fluid">
+    style="background-color: #023c7e; color: rgb(253, 253, 253);">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
       <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-          data-mdb-target="#navbarLeftAlignExample" aria-controls="navbarLeftAlignExample" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarLeftAlignExample"
+        aria-controls="navbarLeftAlignExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
       </button>
 
       <!-- Collapsible wrapper -->
       <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
-          <!-- Navbar brand -->
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
-              <img src="images/maxim-hopman-fiXLQXAhCfk-unsplash.jpg" height="15" alt="MDB Logo" loading="lazy" />
-          </a>
-          <!-- Left links -->
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item pe-3">
-                  <a class="nav-link active" href="home.html">Home</a>
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img src="images/maxim-hopman-fiXLQXAhCfk-unsplash.jpg" height="15" alt="MDB Logo" loading="lazy" />
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item pe-3">
+            <a class="nav-link active" href="home.html">Home</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link active" href="responsibilty.html">Responsibility</a>
+          </li>
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown pe-3">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              Investment Products
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="realestate.html">Real Estate</a>
               </li>
-              <li class="nav-item pe-3">
-                  <a class="nav-link active" href="responsibilty.html">Responsibility</a>
+              <li>
+                <a class="dropdown-item" href="stocks.html">Stocks</a>
               </li>
-              <!-- Navbar dropdown -->
-              <li class="nav-item dropdown pe-3">
-                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                      data-mdb-toggle="dropdown" aria-expanded="false">
-                      Investment Products
-                  </a>
-                  <!-- Dropdown menu -->
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li>
-                          <a class="dropdown-item" href="realestate.html">Real Estate</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="stocks.html">Stocks</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="infrastructure.html">Infrastructure</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="forex.html">Forex Trading</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="crypto.html">Crypto Asset</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="agricultural.html">Agriculture</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="NFP.html">NFP</a>
-                      </li>
-                  </ul>
+              <li>
+                <a class="dropdown-item" href="infrastructure.html">Infrastructure</a>
               </li>
-              <!-- Dropdown End -->
-              <!-- Navbar dropdown -->
-              <li class="nav-item dropdown pe-3">
-                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                      data-mdb-toggle="dropdown" aria-expanded="false">
-                      Planning Services
-                  </a>
-                  <!-- Dropdown menu -->
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li>
-                          <a class="dropdown-item" href="financialplan.html">Financial Planning</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="retirement.html">Retirement Planning</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="privatewealth.html">Private Wealth Management</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="estatepal.html">Estate Planning</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="longtermcare.html">Long Term care</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="business.html">Business Services</a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="oil&gas.html">Oil & Gas</a>
-                      </li>
-                  </ul>
+              <li>
+                <a class="dropdown-item" href="forex.html">Forex Trading</a>
               </li>
-              <!-- Dropdown End -->
-              <li class="nav-item px-3" style="background-color: #3a6827;">
-                  <a class="nav-link text-white" href="login.html">Sign In</a>
+              <li>
+                <a class="dropdown-item" href="crypto.html">Crypto Asset</a>
               </li>
-          </ul>
-          <!-- Left links -->
+              <li>
+                <a class="dropdown-item" href="agricultural.html">Agriculture</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="NFP.html">NFP</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Dropdown End -->
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown pe-3">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              Planning Services
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="financialplan.html">Financial Planning</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="retirement.html">Retirement Planning</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="privatewealth.html">Private Wealth Management</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="estatepal.html">Estate Planning</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="longtermcare.html">Long Term care</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="business.html">Business Services</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="oil&gas.html">Oil & Gas</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Dropdown End -->
+          <li class="nav-item px-3" style="background-color: #3a6827;">
+            <a class="nav-link text-white" href="login.html">Sign In</a>
+          </li>
+        </ul>
+        <!-- Left links -->
       </div>
       <!-- Collapsible wrapper -->
-  </div>
-  <!-- Container wrapper -->
-</nav>
-<!-- Navbar -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
 
-<div class="container mt-5 pt-5">
+  <div class="container mt-5 pt-5">
     <div class="container formdiv p-5 text-center">
-<!-- Pills navs -->
-<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-    <li class="nav-item" role="presentation">
-      <a
-        class="nav-link active"
-        id="tab-login"
-        data-mdb-toggle="pill"
-        href="#pills-login"
-        role="tab"
-        aria-controls="pills-login"
-        aria-selected="true"
-        >Login</a
-      >
-    </li>
-    <li class="nav-item" role="presentation">
-      <a
-        class="nav-link"
-        id="tab-register"
-        data-mdb-toggle="pill"
-        href="#pills-register"
-        role="tab"
-        aria-controls="pills-register"
-        aria-selected="false"
-        >Register</a
-      >
-    </li>
-  </ul>
-  <!-- Pills navs -->
-  
-  <!-- Pills content -->
-  <div class="tab-content">
-    <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
-      <form>
-        <div class="text-center mb-3">
-          <p>Sign in with:</p>
-          <button type="button" class="btn btn-dark btn-floating mx-1">
-            <i class="fab fa-facebook-f"></i>
-          </button>
-  
-          <button type="button" class="btn btn-dark btn-floating mx-1">
-            <i class="fab fa-google"></i>
-          </button>
-  
-          <button type="button" class="btn btn-dark btn-floating mx-1">
-            <i class="fab fa-twitter"></i>
-          </button>
-        </div>
-  
-        <p class="text-center">or:</p>
-  
-        <!-- Email input -->
-        <div class="form-outline mb-4">
-          <input type="email" id="loginName" class="form-control" />
-          <label class="form-label" for="loginName">Email or username</label>
-        </div>
-  
-        <!-- Password input -->
-        <div class="form-outline mb-4">
-          <input type="password" id="loginPassword" class="form-control" />
-          <label class="form-label" for="loginPassword">Password</label>
-        </div>
-  
-        <!-- 2 column grid layout -->
-        <div class="row mb-4">
-          <div class="col-md-6 d-flex justify-content-center">
-            <!-- Checkbox -->
-            <div class="form-check mb-3 mb-md-0">
-              <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
-              <label class="form-check-label" for="loginCheck"> Remember me </label>
+      <!-- Pills navs -->
+      <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
+            aria-controls="pills-login" aria-selected="true">Login</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab"
+            aria-controls="pills-register" aria-selected="false">Register</a>
+        </li>
+      </ul>
+      <!-- Pills navs -->
+
+      <!-- Pills content -->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+          <form>
+            <div class="text-center mb-3">
+              <p>Sign in with:</p>
+              <button type="button" class="btn btn-dark btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+
+              <button type="button" class="btn btn-dark btn-floating mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+
+              <button type="button" class="btn btn-dark btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
             </div>
-          </div>
-  
-          <div class="col-md-6 d-flex justify-content-center">
-            <!-- Simple link -->
-            <a href="#!">Forgot password?</a>
-          </div>
+
+            <p class="text-center">or:</p>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="loginName" class="form-control" />
+              <label class="form-label" for="loginName">Email or username</label>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="loginPassword" class="form-control" />
+              <label class="form-label" for="loginPassword">Password</label>
+            </div>
+
+            <!-- 2 column grid layout -->
+            <div class="row mb-4">
+              <div class="col-md-6 d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check mb-3 mb-md-0">
+                  <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                  <label class="form-check-label" for="loginCheck"> Remember me </label>
+                </div>
+              </div>
+
+              <div class="col-md-6 d-flex justify-content-center">
+                <!-- Simple link -->
+                <a href="#!">Forgot password?</a>
+              </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>Not a member? <a href="#!">Register</a></p>
+            </div>
+          </form>
         </div>
-  
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
-  
-        <!-- Register buttons -->
-        <div class="text-center">
-          <p>Not a member? <a href="#!">Register</a></p>
+        <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+          <form>
+            <div class="text-center mb-3">
+              <p>Sign up with:</p>
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+
+            <p class="text-center">or:</p>
+
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="registerName" class="form-control" />
+              <label class="form-label" for="registerName">Name</label>
+            </div>
+
+            <!-- Username input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="registerUsername" class="form-control" />
+              <label class="form-label" for="registerUsername">Username</label>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="registerEmail" class="form-control" />
+              <label class="form-label" for="registerEmail">Email</label>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="registerPassword" class="form-control" />
+              <label class="form-label" for="registerPassword">Password</label>
+            </div>
+
+            <!-- Repeat Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="registerRepeatPassword" class="form-control" />
+              <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                aria-describedby="registerCheckHelpText" />
+              <label class="form-check-label" for="registerCheck">
+                I have read and agree to the terms
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" id="saveData" class="btn btn-primary btn-block mb-3">Sign in</button>
+          </form>
         </div>
-      </form>
-    </div>
-    <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
-      <form>
-        <div class="text-center mb-3">
-          <p>Sign up with:</p>
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-facebook-f"></i>
-          </button>
-  
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-google"></i>
-          </button>
-  
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-twitter"></i>
-          </button>
-  
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-github"></i>
-          </button>
-        </div>
-  
-        <p class="text-center">or:</p>
-  
-        <!-- Name input -->
-        <div class="form-outline mb-4">
-          <input type="text" id="registerName" class="form-control" />
-          <label class="form-label" for="registerName">Name</label>
-        </div>
-  
-        <!-- Username input -->
-        <div class="form-outline mb-4">
-          <input type="text" id="registerUsername" class="form-control" />
-          <label class="form-label" for="registerUsername">Username</label>
-        </div>
-  
-        <!-- Email input -->
-        <div class="form-outline mb-4">
-          <input type="email" id="registerEmail" class="form-control" />
-          <label class="form-label" for="registerEmail">Email</label>
-        </div>
-  
-        <!-- Password input -->
-        <div class="form-outline mb-4">
-          <input type="password" id="registerPassword" class="form-control" />
-          <label class="form-label" for="registerPassword">Password</label>
-        </div>
-  
-        <!-- Repeat Password input -->
-        <div class="form-outline mb-4">
-          <input type="password" id="registerRepeatPassword" class="form-control" />
-          <label class="form-label" for="registerRepeatPassword">Repeat password</label>
-        </div>
-  
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input
-            class="form-check-input me-2"
-            type="checkbox"
-            value=""
-            id="registerCheck"
-            checked
-            aria-describedby="registerCheckHelpText"
-          />
-          <label class="form-check-label" for="registerCheck">
-            I have read and agree to the terms
-          </label>
-        </div>
-  
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
-      </form>
+      </div>
+      <!-- Pills content -->
     </div>
   </div>
-  <!-- Pills content -->
-</div>
-</div>
+
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
+  import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-database.js";
+  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-auth.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyC0FUIa2yuAHXfFbeFa98G55M0Jm5tHYp4",
+    authDomain: "new-project-314a3.firebaseapp.com",
+    projectId: "new-project-314a3",
+    storageBucket: "new-project-314a3.appspot.com",
+    messagingSenderId: "204711886578",
+    appId: "1:204711886578:web:74a5c6d614a77cddf59a6b"
+  };
+
+  
+   // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+  const database = getDatabase(app);
+  const auth = getAuth();
+
+sighUp.addEventListener('click',(e) => {
+
+  var email = document.getElementById('registerEmail').value;
+  var password = document.getElementById('registerPassword').value;
+  var username = document.getElementById('registerUsername').value;
+
+  createUserWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+     // Signed in 
+      const user = userCredential.user;
+
+      set(ref(database, 'users/' + user.uid),{
+          username: username,
+          email: email
+      })
+
+      alert('user created!');
+      // ...
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+
+      alert(errorMessage);
+    // ..
+    });
+
+});
+
+ login.addEventListener('click',(e)=>{
+   var email = document.getElementById('loginName').value;
+   var password = document.getElementById('loginPassword').value;
+
+      signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Signed in 
+        const user = userCredential.user;
+
+        const dt = new Date();
+         update(ref(database, 'users/' + user.uid),{
+          last_login: dt,
+        })
+
+         alert('User loged in!');
+        // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+
+        alert(errorMessage);
+  });
+
+ });
+
+const user = auth.currentUser;
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    // User is signed in, see docs for a list of available properties
+    // https://firebase.google.com/docs/reference/js/firebase.User
+    const uid = user.uid;
+    //bla bla bla
+    // ...
+  } else {
+    // User is signed out
+    // ...
+    //bla bla bla
+  }
+});
+
+logout.addEventListener('click',(e)=>{
+
+   signOut(auth).then(() => {
+     // Sign-out successful.
+     alert('user loged out');
+   }).catch((error) => {
+     // An error happened.
+     const errorCode = error.code;
+     const errorMessage = error.message;
+
+        alert(errorMessage);
+   });
+
+});
+</script>
+
+  <!-- Footer -->
+  <footer class=" text-center text-white" style="background-color: #06376ef6;">
+    <!-- Grid container -->
+    <div class="container-fluid p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+
+      </section>
+      <!-- Section: Social media -->
 
 
 
-    <!-- Footer -->
-    <footer class=" text-center text-white" style="background-color: #06376ef6;">
-        <!-- Grid container -->
-        <div class="container-fluid p-4">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem Ipsum is more than just finance, it is hope for an average entrepreneur to stand and evolve.
+        </p>
+        <hr>
+      </section>
+      <!-- Section: Text -->
 
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-twitter"></i></a>
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase title">More </h5>
 
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-google"></i></a>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="About.html" class="text-white">About Us</a>
+              </li>
+              <li>
+                <a href="responsibilty.html" class="text-white">Corporate responsibility</a>
+              </li>
+              <li>
+                <a href="financialplan.html" class="text-white">Planning services</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
 
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-instagram"></i></a>
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase title">Useful Links</h5>
 
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="crypto.html" class="text-white">Cryptocurrency</a>
+              </li>
+              <li>
+                <a href="realestate.html" class="text-white">Real Estate</a>
+              </li>
+              <li>
+                <a href="stocks.html" class="text-white">Stock</a>
+              </li>
+              <li>
+                <a href="" class="text-white">Multi Assets</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
 
-                <!-- Github -->
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase title">Support</h5>
 
-            </section>
-            <!-- Section: Social media -->
-
-
-
-            <!-- Section: Text -->
-            <section class="mb-4">
-                <p>
-                    Lorem Ipsum is more than just finance, it is hope for an average entrepreneur to stand and evolve.
-                </p>
-                <hr>
-            </section>
-            <!-- Section: Text -->
-
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row d-flex justify-content-center">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase title">More </h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="About.html" class="text-white">About Us</a>
-                            </li>
-                            <li>
-                                <a href="responsibilty.html" class="text-white">Corporate responsibility</a>
-                            </li>
-                            <li>
-                                <a href="financialplan.html" class="text-white">Planning services</a>
-                            </li>
-                            <li>
-                                <a href="contact.html" class="text-white">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase title">Useful Links</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="crypto.html" class="text-white">Cryptocurrency</a>
-                            </li>
-                            <li>
-                                <a href="realestate.html" class="text-white">Real Estate</a>
-                            </li>
-                            <li>
-                                <a href="stocks.html" class="text-white">Stock</a>
-                            </li>
-                            <li>
-                                <a href="" class="text-white">Multi Assets</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase title">Support</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-white">Support</a>
-                            </li>
-                            <li>
-                                <a href="contact.html" class="text-white">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">FAQs</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-                </div>
-                <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Support</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white">Contact Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">FAQs</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
         </div>
-        <!-- Grid container -->
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(9, 19, 29, 0.718);">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">Trades.com</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(9, 19, 29, 0.718);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Trades.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
 
-    <!-- Bootsrtap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
-    <!-- Any chart -->
-    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js" type="text/javascript">
-    </script>
-    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js" type="text/javascript">
-    </script>
-    <script
-        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
-    </script>
-    <script
-        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
-    </script>
-    <script
-        src="https://cdn.anychart.com/releases/8.11.0/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
-    </script>
-    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
-    </script>
-    <script src="https://cdn.anychart.com/csv-data/dji-daily-short.js"></script>
-    <script src="chart.js"></script>
-    <script src="index.js"></script>
-    <script src="https://ifccd.net/js/minifin/all-ltr-8027d1908925116e10a8fc8480e957a0-2.js" defer></script>
+  <!-- Bootsrtap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+  <!-- Any chart -->
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js" type="text/javascript">
+  </script>
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js" type="text/javascript">
+  </script>
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+  </script>
+  <script
+    src="https://cdn.anychart.com/releases/8.11.0/js/anychart-stock.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+  </script>
+  <script
+    src="https://cdn.anychart.com/releases/8.11.0/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+  </script>
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+  </script>
+  <script src="https://cdn.anychart.com/csv-data/dji-daily-short.js"></script>
+  <script src="chart.js"></script>
+  <script src="index.js"></script>
+  <script src="https://ifccd.net/js/minifin/all-ltr-8027d1908925116e10a8fc8480e957a0-2.js" defer></script>
 </body>
 
 </html>

@@ -153,33 +153,53 @@
 
     <div class="container mt-5 py-5 pt-5 d-flex align-content-center justify-content-center">
         <form class="formdiv">
-            <h3 class="text-center title p-3" style="color: #2d5179; font-family: cursive;">We would love to hear from you 💙</h3>
+            <h3 class="text-center title p-3" style="color: #2d5179; font-family: cursive;">We would love to hear from
+                you 💙</h3>
             <!-- Name input -->
             <div class="form-outline mb-4">
-                <input type="text" id="form4Example1" class="form-control" />
+                <input type="text" id="nameinput" class="form-control" />
                 <label class="form-label" for="form4Example1">Name</label>
             </div>
 
             <!-- Email input -->
             <div class="form-outline mb-4">
-                <input type="email" id="form4Example2" class="form-control" />
+                <input type="email" id="emailinput" class="form-control" />
                 <label class="form-label" for="form4Example2">Email address</label>
             </div>
 
             <!-- Message input -->
             <div class="form-outline mb-4">
-                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                <textarea class="form-control" id="messageinput" rows="4"></textarea>
                 <label class="form-label" for="form4Example3">Message</label>
             </div>
 
-           
+
 
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+            <button type="submit" onclick="writeData()" class="btn btn-primary btn-block mb-4">Send</button>
         </form>
     </div>
 
 
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyC0FUIa2yuAHXfFbeFa98G55M0Jm5tHYp4",
+          authDomain: "new-project-314a3.firebaseapp.com",
+          projectId: "new-project-314a3",
+          storageBucket: "new-project-314a3.appspot.com",
+          messagingSenderId: "204711886578",
+          appId: "1:204711886578:web:74a5c6d614a77cddf59a6b"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
 
     <!-- Footer -->
     <footer class=" text-center text-white" style="background-color: #06376ef6;">
